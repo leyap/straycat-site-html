@@ -14,6 +14,6 @@ document.addEventListener("scroll", function () {
     //            msg.textContent = ""+document.body.scrollHeight+","
     scrollTop = document.body.scrollTop; // 0~200
     var height = (200-scrollTop); // 200~0
-    nav.style.minHeight = height+"px";
-    title.style.fontSize = (200-scrollTop)/4+"px";
+    // nav.style.minHeight = height+"px";
+    // title.style.fontSize = (200-scrollTop)/4+"px";
 });

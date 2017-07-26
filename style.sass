@@ -1,7 +1,6 @@
 html, body
   margin: 0
 html
-  //border: 1px solid #ff0000;
   height: 100%
   box-sizing: border-box
   background: rgb(100, 100, 100)
@@ -26,9 +25,6 @@ footer
   padding: 0px
   display: flex
   justify-content: center
-  //position: fixed;
-  //z-index: 100
-  //background: rgba(160, 160, 160, 1.0);
   background: #fff
   background: url("background.png")
   width: 100%
@@ -38,10 +34,8 @@ footer
     color: #ffb900
     font-size: 50px
     &:before
-      //content: '<'
       color: #000
     &:after
-      //content: '>'
       color: #000
 //content: '\00A0\000BB'
 
@@ -51,8 +45,6 @@ footer
 .content-main
   //background: url("background.png")
   box-sizing: border-box
-  //background: #888
-  ///*border-radius: 20px;
   width: 100%
   padding: 20px 40px
   display: flex
@@ -61,41 +53,25 @@ footer
   align-items: flex-start
   align-content: flex-start
   justify-content: center
-  ///*justify-content: space-around;
-  ///*justify-content: space-between;
   flex: 1
   > *:last-child
-///*align-self: flex-end;
-///*border:solid;
-//
-///*.content-main:after {
-///*content: "";
-///*flex: auto;
-///*}
-
 .item-box
   padding: 0
   margin: 4px
-  //min-width: 200px
   width: auto
   height: 200px
   box-sizing: border-box
-  ///*border:1px solid #000;
   border-radius: 10px
-  ///*overflow: hidden;
-  ///*flex: 1 0 auto;
   &:last-child
   > *:first-child
     img
   &:nth-last-child(1)
-
 .item-content
   padding: 0
   margin: 0
   box-sizing: border-box
   width: auto
   height: 200px
-  //background: #555
   //overflow: hidden
   img
     //border: 1px solid #000000
@@ -110,20 +86,13 @@ footer
     height: 200px
     padding: 0
     margin: 0
-    ///*max-width: 100%;
-    ///*max-height: 100%;
     box-sizing: border-box
-    ///*border: 1px dashed;
     background: #fff
-    ///*transform: scale(1, 1);
-    //transform: translateZ(0)
-    //transition: 0.5s transform
     overflow: hidden
 
 .item-box-hide
   opacity: 0
   max-height: 0px
-  ///*margin: 0;
   *
     max-height: 0px
 
@@ -131,20 +100,13 @@ footer
   from
     transform: scale(1, 1)
     opacity: 0.7
-  //z-index: 9999
   to
     transform: scale(1.5, 1.5)
     opacity: 1
-//z-index: 9999
-
 .item-content img:hover
   z-index: 9999
-  //transition: transform
-  //transform: translateZ(100px)
   transform: scale(1.5, 1.5)
   animation: myimg 1s
-///*object-fit: scale-down;
-
 .flow
   position: fixed
   bottom: 10px
@@ -156,11 +118,6 @@ footer
   .content
     flex-direction: column
   .content-main
-  ///*min-height: 200px;
-  //.item-box
-  //  margin: 4px
-
-
 
 @media only screen and (max-width: 448px)
   body
@@ -187,11 +144,6 @@ footer
       from
         transform: scale(1, 1)
         opacity: 0.7
-        //z-index: 9999
       to
         transform: scale(1, 1)
         opacity: 1
-        //transform: scale(1, 1)
-        //animation: myimg 1s
-        //transform: scale(1.1, 1.1)
-        //transition: 0.5s transform
